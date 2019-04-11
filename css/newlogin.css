@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.text-center{
+    background-color: #2a3f54;
+}
+.cadastrar{
+    margin-top: 10px;
+}
+label.error{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.btn-facebook{
+    margin-bottom: 15px;
+    background-color: #3b5998;
+    color: white !important;
+}
+.btn-facebook .icon-facebook{
+    font-size: 19px;
+}
+.logo-login{
+    width: 175px;
+    margin-bottom: 5px;
+}
